@@ -9,6 +9,7 @@
     border: 1px solid rgba(255, 255, 255, 0.125);
     margin: 150px auto;
     margin-top: -550px;
+    animation:slide-bottom .5s cubic-bezier(.25,.46,.45,.94);
     text-align: center;
     box-shadow: 5px rgba(8, 8, 9, 8.342);
     top: 0;
@@ -19,6 +20,7 @@
     }
     h2{
         margin-top: -10px;
+        animation:slide-right .5s cubic-bezier(.25,.46,.45,.94);
     }
     #length{
         text-align: center;
@@ -59,3 +61,8 @@
         margin-left: -20px;
         display: flex;
     }
+
+
+
+ @keyframes slide-bottom{0%{transform:translateY(0)}0%{transform:translateY(100px)}}
+@keyframes slide-right{0%{transform:translateX(0)}0%{transform:translateX(100px)}}
