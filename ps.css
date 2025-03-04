@@ -1,0 +1,63 @@
+.container {
+
+    width: 300px;
+    
+    padding: 10px;
+    
+    font-family: sans-serif;
+    
+    background: Linear-gradient(358deg, #38e98f, #6c34dd);
+    
+    margin: 150px auto;
+    
+    text-align: center;
+    
+    box-shadow: 5px rgba(8, 8, 9, 8.342);
+    
+    border-radius: 10px;
+    
+    }
+    
+    Input {
+    
+    outline: none;
+    
+    margin: 10px;
+    
+    border: none;
+    
+    padding: 6px;
+    
+    border-radius: 5px;
+    }
+    .btn {
+    
+    background: #500760;
+    
+    padding: 3px 8px;
+    
+    border: 2px solid #508750;
+    
+    color: white;
+    
+    cursor: pointer;
+    
+    font-weight: bold;
+    
+    transition: 0.15;
+    
+    font-size: 17px;
+    
+    border-radius: 4px;
+    
+    width: 38%;
+    
+    }
+    
+    .btn:hover {
+    
+    background: transparent;
+    
+    color: #5007e0;
+    
+    }
