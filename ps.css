@@ -9,15 +9,14 @@
     background: Linear-gradient(358deg, #38e98f, #6c34dd);
     
     margin: 150px auto;
-    
+    margin-top: -500px;
     text-align: center;
-    
+    display: flex;
     box-shadow: 5px rgba(8, 8, 9, 8.342);
     
     border-radius: 10px;
     
     }
-    
     Input {
     
     outline: none;
@@ -60,4 +59,10 @@
     
     color: #5007e0;
     
+    }
+    .image{
+        width: 1547px;
+        height: 720px;
+        filter: blur(8px);
+        margin-left: -20px;
     }
